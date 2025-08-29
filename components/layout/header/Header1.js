@@ -22,14 +22,20 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 </li>
                                                 <li className="menu-item-has-children"><Link href="#">Courses</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="/courses">All Courses</Link></li>
+                                                       
+                                                        <li><Link href="/course/1"> Business </Link></li>
+                                                        <li><Link href="/course/2"> Communication </Link></li>
+                                                        <li><Link href="/course/3">Leadership </Link></li>
+                                                        <li><Link href="/course/4">Personal Growth </Link></li>
+                                                        <li><Link href="/course/3">Self-Growth </Link></li>
+                                                         <li><Link href="/course/3">Finance </Link></li>
                                                       
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item"><Link href="#">Resources </Link> 
                                                 </li>
                                                
-                                                <li className="menu-item"><Link href="#">Enterprise </Link> 
+                                                <li className="menu-item"><Link href="#">Upskill Your Team </Link> 
                                                 </li>
                                             </ul>
                                         </div>
@@ -39,17 +45,17 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                                     <svg width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M12 12H6.85714V6.85714H12V12ZM5.14286 12H0V6.85714H5.14286V12ZM12 5.14286H6.85714V0H12V5.14286ZM5.14286 5.14286H0V0H5.14286V5.14286Z" fill="currentcolor" />
                                                     </svg>
-                                                    <select className="form-select" id="course-cat" aria-label="Default select example" style={{ width: 150 }}>
-                                                        <option disabled>Categories</option>
-                                                        <option>Business</option>
-                                                        <option value={2}>Data Science</option>
-                                                        <option value={3}>Art  Design</option>
-                                                        <option value={4}>Marketing</option>
-                                                        <option value={5}>Finance</option>
+                                                    <select className="form-select" id="course-cat" aria-label="Default select example" style={{ width: 150 }}> 
+                                                        <option value={1}>Business</option>
+                                                        <option value={2}>Communication </option>
+                                                        <option value={3}>Leadership </option>
+                                                        <option value={4}>Self-Growth</option>
+                                                        <option value={5}>Technology </option>
+                                                        <option value={6}> Finance </option>
                                                     </select>
                                                 </div>
                                                 <div className="input-grp">
-                                                    <input type="text" placeholder="Search For Course . . ." />
+                                                    <input type="text" placeholder="Find a Program . . ." />
                                                     <button type="submit"><i className="flaticon-searching" /></button>
                                                 </div>
                                             </form>

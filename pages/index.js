@@ -9,7 +9,7 @@ import Cta1 from "@/components/sections/Cta1"
 import Instructor1 from "@/components/sections/Instructor1"
 import Newsletter1 from "@/components/sections/Newsletter1"
 import Testimonial1 from "@/components/sections/Testimonial1"
-
+import Banner2 from "@/components/sections/Banner2"
 import { useEffect, useState } from "react";
 
 
@@ -33,7 +33,7 @@ useEffect(() => {
 
               
                 <Banner1 />
-                <Brand1 />
+                {/* <Brand1 /> */}
                 <About1 />
                 <Course1 />
                 {/* <Categories1 /> */}
