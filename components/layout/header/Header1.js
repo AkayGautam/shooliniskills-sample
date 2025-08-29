@@ -23,24 +23,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 <li className="menu-item-has-children"><Link href="#">Courses</Link>
                                                     <ul className="sub-menu">
                                                         <li><Link href="/courses">All Courses</Link></li>
-                                                        <li><Link href="/course-details">Course Details</Link></li>
+                                                      
                                                     </ul>
                                                 </li>
-                                                <li className="menu-item-has-children"><Link href="#">Resources </Link>
-                                                    <ul className="sub-menu">
-                                                        <li><Link href="/about-us">About Us</Link></li>
-                                                        <li><Link href="/instructors">Our Instructors</Link></li>
-                                                        <li><Link href="/instructor-details">Instructor Details</Link></li>
-                                                        <li><Link href="/mentors">Our Mentors</Link></li>
-                                                        <li><Link href="/events">Our Events</Link></li>
-                                                        <li><Link href="/events-details">Event Details</Link></li>
-                                                        <li><Link href="/faq">Asked Question</Link></li>
-                                                        <li><Link href="/404">404 Page</Link></li>
-                                                        <li><Link href="/contact">contact</Link></li>
-                                                    </ul>
+                                                <li className="menu-item"><Link href="#">Resources </Link> 
                                                 </li>
                                                
-                                                <li className="menu-item-has-children"><Link href="#">Enterprise </Link> 
+                                                <li className="menu-item"><Link href="#">Enterprise </Link> 
                                                 </li>
                                             </ul>
                                         </div>
