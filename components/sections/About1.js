@@ -39,7 +39,7 @@ const settings = {
     infinite: true,
     speed: 600,
     autoplay: true,
-    arrows: true,
+    arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: <SlickArrowLeft />,
@@ -73,60 +73,40 @@ const settings = {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-xl-6 col-lg-8">
                             <Slider {...settings} className="row courses-slider-active">
-                                
-                              <div className="about__images">
+                               <div className="about__images">
                                <div className="row">
-                                    <div className="col-6">
-                                        <div className="about__images-item mb-30">
-                                            <img  className="img-new"  src="/assets/img/janvi.jpg" alt="img" />
-                                        </div>
-                                    </div>
-                                    <div className="col-6">
+                                <div className="col-2"> </div>
+                                    <div className="col-8">
                                         <div className="about__images-item mb-30">
                                             <img  className="img-new"  src="/assets/img/nishtha.jpg" alt="img" />
                                         </div>
                                     </div>
-                               </div>
-                                <div className="row">
-                                    <div className="col-6">
-                                        <div className="about__images-item mb-30">
-                                            <img className="img-new"  src="/assets/img/amar.jpg" alt="img" />
-                                        </div>
-                                    </div>
-                                    <div className="col-6">
-                                        <div className="about__images-item mb-30">
-                                            <img className="img-new" src="/assets/img/nishtha.jpg" alt="img" />
-                                        </div>
-                                    </div>
-                               </div>
-                            </div>
+                                 </div>  
+                                 </div>
 
-                            <div className="about__images">
+                                    <div className="about__images">
                                <div className="row">
-                                    <div className="col-6">
+                                 <div className="col-2"> </div>
+                                    <div className="col-8">
                                         <div className="about__images-item mb-30">
                                             <img  className="img-new"  src="/assets/img/janvi.jpg" alt="img" />
                                         </div>
                                     </div>
-                                    <div className="col-6">
+                                 </div>  
+                                 </div>
+
+                                    <div className="about__images">
+                               <div className="row">
+                                 <div className="col-2"> </div>
+                                    <div className="col-8">
                                         <div className="about__images-item mb-30">
-                                            <img  className="img-new"  src="/assets/img/nishtha.jpg" alt="img" />
+                                            <img  className="img-new"  src="/assets/img/amar.jpg" alt="img" />
                                         </div>
                                     </div>
-                               </div>
-                                <div className="row">
-                                    <div className="col-6">
-                                        <div className="about__images-item mb-30">
-                                            <img className="img-new"  src="/assets/img/janvi.jpg" alt="img" />
-                                        </div>
-                                    </div>
-                                    <div className="col-6">
-                                        <div className="about__images-item mb-30">
-                                            <img className="img-new" src="/assets/img/nishtha.jpg" alt="img" />
-                                        </div>
-                                    </div>
-                               </div>
-                            </div>
+                                 </div>  
+                                 </div>
+
+ 
                             
                             </Slider>
                         </div>
@@ -134,9 +114,9 @@ const settings = {
                             <div className="about__content">
                                 <div className="section__title">
                                     <span className="sub-title">Get To Know Your Mentors</span>
-                                    <h2 className="title tg-svg"> Top Instructors from India’s Leading Campuses Teach You</h2>
+                                    <h2 className="title tg-svg"> Learn Directly from Top Industry Talent</h2>
                                 </div>
-                                <p className="desc">The curriculum is made for new generation learners who want to grow and lead in their organisation. Therefore, our instructors come from live working environments where they are abreast with the latest developments in business, leadership, technology and more.  </p>
+                                <p className="desc">The curriculum is made by industry experts for new generation learners who want to grow and lead in their organisation. Therefore, our instructors come from live working environments where they are abreast with the latest developments in business, leadership, technology and more.  </p>
                                 <ul className="about__info-list list-wrap">
                                     <li className="about__info-list-item">
                                         <div className="icon"><i className="flaticon-support" /></div>

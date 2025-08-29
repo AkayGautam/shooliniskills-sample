@@ -274,7 +274,7 @@
         "language": "English",
         "difficulty": "intermediate",
         "rating": "intermediate",
-        "starton": "Self-paced and Live Virtual",
+        "starton": "Self-paced",
         "duration": "15 days",
         "fee": "30,000",
         "launchfee": "9,999",
@@ -364,7 +364,7 @@
         "language": "English",
         "difficulty": "beginner",
         "rating": "beginner",
-        "starton": "Self-paced and Live Virtual",
+        "starton": "Self-paced",
         "duration": "60 days",
         "fee": "50,000",
         "launchfee": "29,999",
@@ -560,21 +560,5 @@
                 ]
             }
         ]
-    },
-    {
-        "id": 6,
-        "logo": "course_thumb06.jpg",
-        "courseTitle": "Demo",
-        "category": "Marketing",
-        "instructor": "Jackson Alive",
-        "catcls": "cat-two",
-        "language": "English",
-        "difficulty": "intermediate",
-        "rating": "intermediate",
-        "starton": "Self-Paced",
-        "duration": "30 days",
-        "fee": "0,000",
-        "launchfee": "0,000",
-        "description": "This is a comprehensive course for beginners. Learn the fundamentals of graphic design and create stunning visuals using industry-standard tools and techniques."
-    }
+    } 
 ]

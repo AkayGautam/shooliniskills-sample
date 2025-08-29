@@ -33,7 +33,7 @@ useEffect(() => {
 
               
                 <Banner1 />
-                {/* <Brand1 /> */}
+                <Brand1 />
                 <About1 />
                 <Course1 />
                 {/* <Categories1 /> */}

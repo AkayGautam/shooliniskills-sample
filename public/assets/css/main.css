@@ -3437,7 +3437,9 @@ section.banner-area.banner-bg:after {
         margin: 29px 50px 0 0;
     }
 }
-
+#sticky-header ul.navigation li a {
+    color: #333;
+}
 .about__info-list-item {
     display: -webkit-box;
     display: -moz-box;
@@ -3445,7 +3447,9 @@ section.banner-area.banner-bg:after {
     display: -webkit-flex;
     display: flex;
 }
-
+h5.title {
+    min-height: 45px;
+}
 .about__info-list-item .icon {
     width: 65px;
     text-align: center;
@@ -4180,12 +4184,12 @@ section.banner-area.banner-bg:after {
 
 @media (max-width: 1800px) {
     .courses__shapes>*:nth-child(1) {
-        left: 4%;
+        left:1%;
     }
 }
 
 .courses__shapes>*:nth-child(1) img {
-    max-width: 83px;
+    max-width:120px;
 }
 
 .courses__shapes>*:nth-child(2) {

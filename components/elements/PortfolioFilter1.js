@@ -105,9 +105,9 @@ export default function PortfolioFilter1() {
                                     <div className="author">
                                         {/* <Link href="/instructor-details"><img src="/assets/img/courses/course_author.png" alt="img" /></Link>
                                         <Link href="/instructor-details">David Millar</Link> */}
-                                        <h5 className="price">रु{item.fee} <br /></h5>
+                                        <h5 className="price">₹{item.fee} <br /></h5>
                                     </div>
-                                    <h5 className="price"><p className="m-0"><strong>Launchfee: </strong> रु{item.launchfee}</p></h5>
+                                    <h5 className="price"><p className="m-0"><strong>Launch fee: </strong> ₹{item.launchfee}</p></h5>
                                 </div>
                             </div>
                         </div>
