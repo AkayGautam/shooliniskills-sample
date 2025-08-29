@@ -2229,7 +2229,7 @@ textarea {
     position: relative;
 }
 .banner__images .main-img {
-    max-width: 140%;
+    max-width: 100%;
     position: relative;
     left: -100px;
 }
