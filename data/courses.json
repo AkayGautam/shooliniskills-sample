@@ -1,0 +1,580 @@
+[
+    {
+        "id": 1,
+        "logo": "course_thumb01.jpg",
+        "courseTitle": "PERSONAL BRANDING FOR EVERYONE",
+        "category": "Personal Growth, Branding",
+        "instructor": "Sophia Christina",
+        "catcls": "cat-one",
+        "language": "English",
+        "difficulty": "beginner",
+        "rating": "beginner",
+        "starton": "Self-Paced",
+        "duration": "30 days",
+        "fee": "15,000",
+        "launchfee": "2,999",
+        "description": "As influence becomes a pillar of growth, personal branding has become necessary for everyone. The instructor of the course, Sophia comes with decades of branding & PR experience across leading brands. Find out how to build your personal brand in easy-to-follow steps. ",
+        "curriculum": [
+            {
+                "module": 1,
+                "topic": "What is AI, Really?",
+                "lessons": [
+                    "AI vs Machine Learning vs Deep Learning (clear analogies, visuals)",
+                    "Everyday AI examples (Netflix, Google Maps, Alexa, ChatGPT) Myths vs realities of AI ",
+                    "CSS Basics",
+                    "Key terms: algorithm, dataset, training, inference"
+                ]
+            },
+            {
+               "module": 2,
+                "topic": "How AI Learns",
+                "lessons": [
+                    "What is data? Structured vs unstructured",
+                    "Machine Learning in 3 steps: data → training → prediction",
+                    "Types of ML: supervised, unsupervised, reinforcement (with simple examples: spam filter, Spotify playlists, self-driving cars)",
+                    " Role of neural networks (visual explanation, no math)"
+                ]  
+            },
+            {
+                "module": 3,
+                "topic": "Generative AI Basics ",
+                "lessons": [
+                    "What is Generative AI? (text, images, video, audio)",
+                    "LLMs explained (language prediction game analogy)",
+                    "Image models (Diffusion explained simply)",
+                    "Popular tools (ChatGPT, Claude, MidJourney, DALL·E, Runway)"
+                ]
+            },
+            {
+                "module": 4,
+                "topic": "Using AI for Everyday Productivity",
+                "lessons": [
+                    "Writing & editing with AI (emails, resumes, blogs) ",
+                    "Brainstorming & ideation (marketing, content, lesson planning)",
+                    "Summarizing text & extracting insights",
+                    "Presentations & reports with AI",
+                    "Using AI responsibly (fact-checking, plagiarism)"
+                ]
+            },
+            {
+                "module": 5,
+                "topic": "AI in the Real World",
+                "lessons": [
+                    "AI in healthcare (diagnostics, drug discovery)",
+                    "AI in finance (fraud detection, trading)",
+                    "AI in entertainment (music, gaming, movies)",
+                    "AI in customer service (chatbots, personalization)",
+                    "Ethical challenges: bias, misinformation, job shifts"
+                ]
+            },
+            {
+                "module": 6,
+                "topic": "Building Your First AI Project ",
+                "lessons": [
+                    "How to think of an AI problem: input → process → output",
+                    "No-code AI platforms (Teachable Machine, Lobe, Google Colab basics)",
+                    "Example projects: Image classifier (cat vs dog), Sentiment analyzer (positive/negative text) ",
+                    "How to deploy/share simple models"
+                ]
+            },
+            {
+                "module": 7,
+                "topic": "The Future of AI & Your Next Steps  ",
+                "lessons": [
+                    "Current trends (multimodal AI, agents, robotics)",
+                    "Responsible AI use (fairness, privacy, transparency)",
+                    "Careers in AI: technical & non-technical roles ",
+                    "Learning roadmap: Python, ML, Data Science, Prompt Engineering "
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "logo": "course_thumb02.jpg",
+        "courseTitle": "MASTER PYTHON IN 30 DAYS",
+        "category": "Technical",
+        "instructor": " Anurag Rana",
+        "catcls": "cat-two",
+        "language": "English",
+        "difficulty": "intermediate",
+        "rating": "intermediate",
+        "starton": "Self-Paced",
+        "duration": "30 days",
+        "fee": "50,000",
+        "phase1" : "Python Foundations (Day 1–7)",
+        "phase2" : "Python for Real Work (Day 8–16)",
+        "launchfee": "19,999",
+        "description": "Meant for those with a basic engineering background, the Master Python in 30 Days program teaches you to write clean Python code. After completion of this course, you will be able to automate tasks, build small apps, and understand core CS/DS concepts.",
+        "curriculum": [
+            {
+               "module": 1,
+                "topic": "Getting Started with Python",
+                "lessons": [
+                    "Install Python, VS Code/Jupyter",
+                    "Syntax, comments, print statements",
+                    "Running scripts & interactive shell",
+                    " Your first program: *Hello, Python!*"
+                ]     
+            },
+            {
+               "module": 2,
+                "topic": "Variables, Data Types & Operators",
+                "lessons": [
+                    "Numbers, strings, booleans",
+                    "Type casting & f-strings",
+                    "Arithmetic, comparison & logical operators" 
+                ]     
+            },
+            {
+               "module": 3,
+                "topic": "Control Flow",
+                "lessons": [
+                    "Nested conditions",
+                    "Boolean expressions in real-world scenarios"
+                ]     
+            },
+            {
+               "module": 4,
+                "topic": "Loops & Iterations",
+                "lessons": [
+                    "‘for’ and ‘while’ loops",
+                    "‘break’, ‘continue’, ‘pass’",
+                    "Looping with ‘range()’, nested loops" 
+                ]     
+            },
+            {
+               "module": 5,
+                "topic": "Data Structures I – Lists & Tuples",
+                "lessons": [
+                    "Creating, indexing, slicing lists",
+                    " Mutability vs immutability",
+                    "Common list methods (‘append’, ‘sort’, ‘pop’)",
+                    "Tuple packing/unpacking"
+                ]     
+            },
+            {
+               "module": 6,
+                "topic": "Data Structures II – Dictionaries & Sets",
+                "lessons": [
+                    " Key/value pairs",
+                    "Dictionary methods",
+                    "Sets, unique values, set operations",
+                    "When to use what"
+                ]     
+            },
+            {
+               "module": 7,
+                "topic": "Functions & Modules",
+                "lessons": [
+                    "Defining and calling functions",
+                    "Parameters, return values",
+                    "Scope & ‘global’ keyword",
+                    "Importing Python standard modules (‘math’, ‘random’)"
+                ]     
+            },
+            {
+               "module": 8,
+                "topic": "Strings & File Handling", 
+                "lessons": [
+                    "String methods (‘split’, ‘join’, ‘find’)",
+                    "File read/write (‘open’, ‘with’)",
+                    "Handling CSV/JSON basics" 
+                ]     
+            },
+            {
+               "module": 9,
+                "topic": "Error Handling & Debugging",
+                "lessons": [
+                    "‘try’, ‘except’, ‘finally’",
+                    "Raising exceptions",
+                    "Debugging with print/logging",
+                    "Best practices"
+                ]     
+            },
+            {
+               "module": 10,
+                "topic": "Object-Oriented Programming (OOP)",
+                "lessons": [
+                    " Classes & objects",
+                    "Attributes & methods",
+                    "‘__init__’ constructor",
+                    "Encapsulation basics"
+                ]     
+            },
+            {
+               "module": 11,
+                "topic": "Advanced OOP Concepts",
+                "lessons": [
+                    "Inheritance & polymorphism",
+                    " ‘super()’",
+                    "Method overriding",
+                    "Dunder methods (‘__str__’, ‘__len__’)"
+                ]     
+            },
+            {
+               "module": 12,
+                "topic": "Working with Libraries & Virtual Environments",
+                "lessons": [
+                    "‘pip’ & PyPI",
+                    "Popular libraries (‘requests’, ‘pandas’, ‘matplotlib’)",
+                    "Virtual environments (‘venv’)",
+                    "Keeping projects isolated"
+                ]     
+            },
+            {
+               "module": 13,
+                "topic": "Python for Data Analysis",
+                "lessons": [
+                    "Numpy arrays",
+                    " Pandas Series & DataFrames",
+                    " Basic data cleaning & filtering",
+                    "Simple visualization with matplotlib"
+                ]     
+            },
+            {
+               "module": 14,
+                "topic": "Python for Automation",
+                "lessons": [
+                    "Automating file renaming",
+                    "Reading/writing Excel (openpyxl)",
+                    "Sending automated emails (smtplib)",
+                    "Web scraping basics (BeautifulSoup/requests)"
+                ]     
+            },
+            {
+               "module": 15,
+                "topic": "Capstone Prep – Project Options", 
+                "lessons": [
+                    "Build a CLI app (expense tracker)",
+                    "Build a data project (analyze COVID/stock/weather dataset)",
+                    "Build a web scraper (news headlines aggregator)",
+                    "Build automation (email reminders / file sorter)"
+                ]     
+            },
+            {
+               "module": 16,
+                "topic": "Capstone & Next Steps",
+                "lessons": [
+                    "Execute chosen project (recorded walk-throughs)",
+                    "Showcase code on GitHub",
+                    "Document with README.md",
+                    "Next steps: Django/Flask, Data Science, ML, FastAPI"
+                ]     
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "logo": "course_thumb03.jpg",
+        "courseTitle": "AI FOR BEGINNERS ",
+        "category": "Personal Growth, Branding",
+        "instructor": "Amar Raj",
+        "catcls": "cat-three",
+        "language": "English",
+        "difficulty": "intermediate",
+        "rating": "intermediate",
+        "starton": "Self-paced and Live Virtual",
+        "duration": "15 days",
+        "fee": "30,000",
+        "launchfee": "9,999",
+        "description": "AI is not here to steal jobs. It is here to enhance your creativity and increase your productivity. Learn the basics of how to use AI, what are its most useful implementations and how to use it for personal growth.  ",
+         "curriculum": [
+            {
+                "module": 1,
+                "topic": "What is AI, Really?",
+                "lessons": [
+                    "AI vs Machine Learning vs Deep Learning (clear analogies, visuals)",
+                    "Everyday AI examples (Netflix, Google Maps, Alexa, ChatGPT) Myths vs realities of AI ",
+                    "CSS Basics",
+                    "Key terms: algorithm, dataset, training, inference"
+                ]
+            },
+            {
+               "module": 2,
+                "topic": "How AI Learns",
+                "lessons": [
+                    "What is data? Structured vs unstructured",
+                    "Machine Learning in 3 steps: data → training → prediction",
+                    "Types of ML: supervised, unsupervised, reinforcement (with simple examples: spam filter, Spotify playlists, self-driving cars)",
+                    " Role of neural networks (visual explanation, no math)"
+                ]  
+            },
+            {
+                "module": 3,
+                "topic": "Generative AI Basics ",
+                "lessons": [
+                    "What is Generative AI? (text, images, video, audio)",
+                    "LLMs explained (language prediction game analogy)",
+                    "Image models (Diffusion explained simply)",
+                    "Popular tools (ChatGPT, Claude, MidJourney, DALL·E, Runway)"
+                ]
+            },
+            {
+                "module": 4,
+                "topic": "Using AI for Everyday Productivity",
+                "lessons": [
+                    "Writing & editing with AI (emails, resumes, blogs) ",
+                    "Brainstorming & ideation (marketing, content, lesson planning)",
+                    "Summarizing text & extracting insights",
+                    "Presentations & reports with AI",
+                    "Using AI responsibly (fact-checking, plagiarism)"
+                ]
+            },
+            {
+                "module": 5,
+                "topic": "AI in the Real World",
+                "lessons": [
+                    "AI in healthcare (diagnostics, drug discovery)",
+                    "AI in finance (fraud detection, trading)",
+                    "AI in entertainment (music, gaming, movies)",
+                    "AI in customer service (chatbots, personalization)",
+                    "Ethical challenges: bias, misinformation, job shifts"
+                ]
+            },
+            {
+                "module": 6,
+                "topic": "Building Your First AI Project ",
+                "lessons": [
+                    "How to think of an AI problem: input → process → output",
+                    "No-code AI platforms (Teachable Machine, Lobe, Google Colab basics)",
+                    "Example projects: Image classifier (cat vs dog), Sentiment analyzer (positive/negative text) ",
+                    "How to deploy/share simple models"
+                ]
+            },
+            {
+                "module": 7,
+                "topic": "The Future of AI & Your Next Steps  ",
+                "lessons": [
+                    "Current trends (multimodal AI, agents, robotics)",
+                    "Responsible AI use (fairness, privacy, transparency)",
+                    "Careers in AI: technical & non-technical roles ",
+                    "Learning roadmap: Python, ML, Data Science, Prompt Engineering "
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "logo": "course_thumb04.jpg",
+        "courseTitle": "AI FOR THE WORKPLACE",
+        "category": "Personal Growth, Technology",
+        "instructor": "..",
+        "catcls": "cat-three",
+        "language": "English",
+        "difficulty": "beginner",
+        "rating": "beginner",
+        "starton": "Self-paced and Live Virtual",
+        "duration": "60 days",
+        "fee": "50,000",
+        "launchfee": "29,999",
+        "description": "Master AI to succeed at the workplace. Explore the tools that you will find useful. This course is job-role agnostic. So you are sure to find tools that will help you deliver results at the workplace better and faster. ",
+           "curriculum": [
+            {
+                "module": 1,
+                "topic": " Introduction to AI in the Workplace",
+                "lessons": [
+                    "What AI is (and isn't) in simple terms",
+                    "Why AI matters in modern work",
+                    "Common workplace AI tools (ChatGPT, Copilot, Gemini, Jasper, Otter, Canva AI)",
+                    "The mindset shift: AI as your co-worker, not a replacement"
+                ]
+            },
+             {
+                "module": 2,
+                "topic": " AI for Communication & Writing ",
+                "lessons": [
+                    "Drafting professional emails with AI",
+                    "Creating proposals, reports, meeting notes",
+                    "Tone adjustment: formal, persuasive, concise",
+                    "Translation & multilingual communication"
+                ]
+            },
+             {
+                "module": 3,
+                "topic": "AI for Productivity & Organization",
+                "lessons": [
+                    "Automating repetitive tasks (scheduling, follow-ups)",
+                    "Summarizing long documents & meetings",
+                    "Extracting action items from notes",
+                    "Knowledge search (ask AI about your own documents)"
+                ]
+            },
+             {
+                "module": 4,
+                "topic": "AI for Creativity & Presentations (45 mins)",
+                "lessons": [
+                    "Brainstorming ideas (marketing, campaigns, problem-solving)",
+                    "Creating slide decks with AI (PowerPoint Copilot, Beautiful.ai, Tome)",
+                    "Generating visuals for presentations & reports",
+                    "Storytelling with AI support"
+                ]
+            },
+             {
+                "module": 5,
+                "topic": "AI for Data & Decision-Making (45 mins)",
+                "lessons": [
+                    "Data basics: AI for non-data professionals",
+                    "Summarizing spreadsheets, creating charts",
+                    "Predictive insights (trends, forecasts)",
+                    "Using AI to compare options & make decisions"
+                ]
+            },
+             {
+                "module": 6,
+                "topic": "AI for Collaboration & Leadership (45 mins)",
+                "lessons": [
+                    "Using AI for project management (task lists, timelines)",
+                    "AI for HR: job descriptions, resume screening, training materials",
+                    "AI in leadership: strategy briefs, scenario planning",
+                    "Collaboration best practices (sharing prompts, workflows)"
+                ]
+            },
+             {
+                "module": 7,
+                "topic": "Responsible & Future-Ready AI at Work (30 mins)",
+                "lessons": [
+                    "Ethical use of AI (bias, plagiarism, confidentiality)",
+                    "Corporate policies on AI (dos & don'ts)",
+                    "Building personal AI literacy (prompt engineering basics)",
+                    "The future of work: hybrid teams (human + AI)"
+                ]
+            }
+           ]
+    },
+    {
+        "id": 5,
+        "logo": "course_thumb05.jpg",
+        "courseTitle": "DIGITAL MARKETING FOR THE SOLOPRENEUR",
+        "category": "Personal Growth, Branding",
+        "instructor": "Foley Patrik",
+        "catcls": "cat-one",
+        "language": "English",
+        "difficulty": "expert",
+        "rating": "expert",
+        "starton": "Self-Paced",
+        "duration": "30 days",
+        "fee": "50,000",
+        "launchfee": "29,999",
+        "description": "This course teaches the strategies to build brand awareness, how to attract customers online and the key metrics that you can focus on. It includes tactics for website development, SEO, social media, direct communication & ad management.",
+        "curriculum": [
+            {
+                "module": 1,
+                "topic": "The Solopreneur's Marketing Advantage",
+                "lessons": [
+                    "What digital marketing means when you're a one-person brand",
+                    "Your unique edge: authenticity, speed, relatability",
+                    "Setting SMART goals (awareness, leads, sales, authority)",
+                    "Crafting a personal brand foundation"
+                ]
+            },
+            {
+                "module": 2,
+                "topic": "Building Your Online Home Base",
+                "lessons": [
+                    "Website essentials: must-have pages (Landing, About, Services/Shop, Contact)",
+                    "No-code website builders (Wix, WordPress, Carrd, Shopify Lite)",
+                    "SEO basics for solopreneurs (keywords, meta, alt text)",
+                    "Integrating CTAs (consult calls, product buys, lead magnet sign-ups)"
+                ]
+            },
+            {
+                "module":3,
+                "topic": "Content Marketing That Converts",
+                "lessons": [
+                    "Content pillars: educate, inspire, build trust, sell",
+                    "Storytelling: your founder story, customer stories, behind-the-scenes",
+                    "Content types: blogs, Reels, TikToks, LinkedIn posts, YouTube",
+                    "Repurposing workflow: 1 idea ‚Üí 5 formats"
+                ]
+            },
+            {
+                "module": 4,
+                "topic": "Social Media Growth Systems",
+                "lessons": [
+                    "Picking the right platforms for your niche (IG, LinkedIn, TikTok, X, YouTube)",
+                    "Profile optimization for discovery & trust",
+                    "Growth tactics: hashtags, collaborations, DMs, engagement pods",
+                    "Building a loyal community vs chasing followers"
+                ]
+            },
+            {
+                "module": 5,
+                "topic": "Email Marketing & Funnels Made Simple",
+                "lessons": [
+                    "Why email is non-negotiable for solopreneurs",
+                    "Lead magnets: checklists, templates, free consults",
+                    "Writing an effective nurture sequence (welcome ‚Üí value ‚Üí offer)",
+                    "Tools: Mailchimp, ConvertKit, Beehiiv, FloDesk"
+                ]
+            },
+            {
+                "module": 6,
+                "topic": "Module 6: Paid Marketing on a Budget",
+                "lessons": [
+                    "When & why to run ads as a solopreneur",
+                    "Facebook/Instagram ad basics (audience, creatives, budget)",
+                    "Google Search Ads for local/online solopreneurs",
+                    "Retargeting made simple (Pixel, GA4)",
+                    "Measuring ad ROI"
+                ]
+            },
+            {
+                "module": 7,
+                "topic": "Branding, Visuals & DIY Design",
+                "lessons": [
+                    "Creating a cohesive look without a designer",
+                    "Tools: Canva, Figma, free stock sites",
+                    "Templates for social, presentations, proposals",
+                    "Branding kit: fonts, colors, logo, photography style"
+                ]
+            },
+            {
+                "module": 8,
+                "topic": " Selling as a Solopreneur",
+                "lessons": [
+                    "Crafting irresistible offers (packages, products, memberships)",
+                    "Pricing strategies: value-based vs cost-based",
+                    "Building simple sales pages (copywriting basics)",
+                    "Soft selling on social media (value ‚Üí authority ‚Üí CTA)"
+                ]
+            },
+            {
+                "module": 9,
+                "topic": "Analytics & Optimization",
+                "lessons": [
+                    "Tracking what matters (awareness, engagement, conversion, revenue)",
+                    "Using platform analytics + Google Analytics",
+                    "A/B testing content, emails, ads",
+                    "Solopreneur dashboard: simple tracking sheet"
+                ]
+            },
+            {
+                "module": 10,
+                "topic": " Scaling & Staying Consistent",
+                "lessons": [
+                    "Time management hacks: batching, scheduling, automation",
+                    "Tools for solopreneurs: Buffer, Zapier, Notion, Trello",
+                    "Outsourcing smartly (VA, freelancers, interns)",
+                    "Building partnerships & collaborations"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "logo": "course_thumb06.jpg",
+        "courseTitle": "Demo",
+        "category": "Marketing",
+        "instructor": "Jackson Alive",
+        "catcls": "cat-two",
+        "language": "English",
+        "difficulty": "intermediate",
+        "rating": "intermediate",
+        "starton": "Self-Paced",
+        "duration": "30 days",
+        "fee": "0,000",
+        "launchfee": "0,000",
+        "description": "This is a comprehensive course for beginners. Learn the fundamentals of graphic design and create stunning visuals using industry-standard tools and techniques."
+    }
+]
