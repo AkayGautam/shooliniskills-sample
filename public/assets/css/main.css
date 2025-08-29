@@ -3410,7 +3410,13 @@ img.img-new {
 .about__content .tg-button-wrap {
     margin-top: 20px;
 }
-
+section.banner-area.banner-bg:after {
+    content: "";
+    background: linear-gradient(45deg, black, transparent);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 .about__info-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
