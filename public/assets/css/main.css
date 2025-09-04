@@ -11101,7 +11101,9 @@ section.contact-area {
 .homepageHeader.sticky-menu li.menu-item a, .homepageHeader.sticky-menu li.menu-item-has-children a {
     color: #333 !important;
 }
-
+.homepageHeader li.menu-item-has-children .sub-menu a {
+    color: #333 !important;
+}
 @media screen and (min-width:768px)
 {
     .on-mobile
