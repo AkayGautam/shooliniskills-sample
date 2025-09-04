@@ -3245,7 +3245,7 @@ textarea {
     07. About
 ===============================*/
 .section-py-120 {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 
 .svg-hidden {
@@ -3266,7 +3266,7 @@ textarea {
 } */
 
 img.img-new { 
-    border: 10px solid #fff;
+    border: 20px solid #fff;
     box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -11100,6 +11100,10 @@ section.contact-area {
 }
 .homepageHeader li.menu-item-has-children .sub-menu a {
     color: #333 !important;
+}
+.about__images-item{
+    padding: 30px;
+    margin-left: -20px;
 }
 @media screen and (min-width:768px)
 {

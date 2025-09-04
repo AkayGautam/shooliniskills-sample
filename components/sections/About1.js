@@ -75,8 +75,7 @@ const settings = {
                             <Slider {...settings} className="row courses-slider-active">
                                <div className="about__images">
                                <div className="row">
-                                <div className="col-1"> </div>
-                                    <div className="col-10">
+                                    <div className="col-12">
                                         <div className="about__images-item mb-30">
                                             <img  className="img-new w-100"  src="/assets/img/nishtha.jpg" alt="img" />
                                         </div>
@@ -86,8 +85,7 @@ const settings = {
 
                                     <div className="about__images">
                                <div className="row">
-                                 <div className="col-1"> </div>
-                                    <div className="col-10">
+                                    <div className="col-12">
                                         <div className="about__images-item mb-30">
                                             <img  className="img-new w-100"  src="/assets/img/janvi.jpg" alt="img" />
                                         </div>
@@ -97,8 +95,7 @@ const settings = {
 
                                     <div className="about__images">
                                <div className="row">
-                                 <div className="col-1"> </div>
-                                    <div className="col-10">
+                                    <div className="col-12">
                                         <div className="about__images-item mb-30">
                                             <img  className="img-new w-100"  src="/assets/img/amar.jpg" alt="img" />
                                         </div>
