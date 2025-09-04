@@ -39,7 +39,7 @@ const settings = {
     infinite: true,
     speed: 600,
     autoplay: true,
-    arrows: false,
+    arrows: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: <SlickArrowLeft />,
