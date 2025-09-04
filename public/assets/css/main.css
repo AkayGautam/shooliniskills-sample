@@ -11094,9 +11094,6 @@ section.contact-area {
 .testimonial__content-wrapper h2.title.tg-svg {
     color: #fff;
 }
-.homepageHeader li.menu-item a, .homepageHeader li.menu-item-has-children a {
-    color: #fff !important;
-}
 
 .homepageHeader.sticky-menu li.menu-item a, .homepageHeader.sticky-menu li.menu-item-has-children a {
     color: #333 !important;
@@ -11106,6 +11103,10 @@ section.contact-area {
 }
 @media screen and (min-width:768px)
 {
+    .homepageHeader li.menu-item a, .homepageHeader li.menu-item-has-children a {
+    color: #fff !important;
+}
+
     .on-mobile
     {
         display:none;
