@@ -71,14 +71,14 @@ const settings = {
             <section className="about-area tg-motion-effects section-py-120">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
-                        <div className="col-xl-6 col-lg-8">
+                        <div className="col-xl-5 col-lg-8">
                             <Slider {...settings} className="row courses-slider-active">
                                <div className="about__images">
                                <div className="row">
-                                <div className="col-2"> </div>
-                                    <div className="col-8">
+                                <div className="col-1"> </div>
+                                    <div className="col-10">
                                         <div className="about__images-item mb-30">
-                                            <img  className="img-new"  src="/assets/img/nishtha.jpg" alt="img" />
+                                            <img  className="img-new w-100"  src="/assets/img/nishtha.jpg" alt="img" />
                                         </div>
                                     </div>
                                  </div>  
@@ -86,10 +86,10 @@ const settings = {
 
                                     <div className="about__images">
                                <div className="row">
-                                 <div className="col-2"> </div>
-                                    <div className="col-8">
+                                 <div className="col-1"> </div>
+                                    <div className="col-10">
                                         <div className="about__images-item mb-30">
-                                            <img  className="img-new"  src="/assets/img/janvi.jpg" alt="img" />
+                                            <img  className="img-new w-100"  src="/assets/img/janvi.jpg" alt="img" />
                                         </div>
                                     </div>
                                  </div>  
@@ -97,10 +97,10 @@ const settings = {
 
                                     <div className="about__images">
                                <div className="row">
-                                 <div className="col-2"> </div>
-                                    <div className="col-8">
+                                 <div className="col-1"> </div>
+                                    <div className="col-10">
                                         <div className="about__images-item mb-30">
-                                            <img  className="img-new"  src="/assets/img/amar.jpg" alt="img" />
+                                            <img  className="img-new w-100"  src="/assets/img/amar.jpg" alt="img" />
                                         </div>
                                     </div>
                                  </div>  
@@ -110,7 +110,7 @@ const settings = {
                             
                             </Slider>
                         </div>
-                        <div className="col-xl-6 col-lg-7">
+                        <div className="col-xl-7 col-lg-7">
                             <div className="about__content">
                                 <div className="section__title">
                                     <span className="sub-title">Get To Know Your Mentors</span>

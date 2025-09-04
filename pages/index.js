@@ -29,7 +29,7 @@ useEffect(() => {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1}>
+            <Layout  headerStyle={1} footerStyle={1}>
 
               
                 <Banner1 />
@@ -38,10 +38,10 @@ useEffect(() => {
                 <Course1 />
                 {/* <Categories1 /> */}
                 <Testimonial1 />
-                <Instructor1 />
+                {/* <Instructor1 /> */}
                 <Cta1 />
-                <Blog1 />
-                <Newsletter1 />
+                {/* <Blog1 /> */}
+                <Newsletter1 /> 
             </Layout>
         </>
     )

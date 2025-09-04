@@ -5,15 +5,19 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
     return (
         <>
             <header>
-                <div id="sticky-header" className={`tg-header__area transparent-header ${scroll ? "sticky-menu" : ""}`}>
+                <div id="sticky-header" className={`tg-header__area transparent-header homepageHeader ${scroll ? "sticky-menu" : ""}`}>
                     <div className="container custom-container">
                         <div className="row">
                             <div className="col-12">
                                 <div className="mobile-nav-toggler" onClick={handleMobileMenu}><i className="tg-flaticon-menu-1" /></div>
                                 <div className="tgmenu__wrap">
                                     <nav className="tgmenu__nav">
-                                        <div className="logo">
+                                        <div className="logo on-desktop">
                                             <Link href="/"><img src="/assets/img/logo/logo.png" alt="Logo" /></Link>
+                                        </div>
+                                        
+                                        <div className="logo on-mobile">
+                                            <Link href="/"><img src="/assets/img/logo/secondary_logo.png" alt="Logo" /></Link>
                                         </div>
                                         <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                             <ul className="navigation">

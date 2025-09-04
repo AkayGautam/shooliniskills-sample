@@ -330,19 +330,17 @@ const CourseSingle = () => {
                                             </div>
                                             <div className="event-cost-wrap">
                                                 <h4 className="price"><strong>Costs:</strong>₹{course.fee} <span> </span></h4>
-                                          <Link
-  className="btn"
-  href={{
-    pathname: "/enroll",
-    query: {
-      // Use optional chaining to safely access courseTitle,
-      // then use replace if it exists.
-      title: course?.courseTitle?.toLowerCase().replace(/ /g, "-") || "" 
-    },
-  }}
->
-  Express Early Interest
-</Link>
+                                                <Link
+                                                    className="btn"
+                                                    href={{
+                                                        pathname: "/enroll",
+                                                        query: { 
+                                                            title: course?.courseTitle?.toLowerCase().replace(/ /g, "-") || ""
+                                                        },
+                                                    }}
+                                                >
+                                                    Express Early Interest
+                                                </Link>
                                                 <div className="event-information-wrap">
                                                     <h6 className="title">Include This Course</h6>
                                                     <ul className="list-wrap">
