@@ -1,74 +1,29 @@
 [
     {
         "id": 1,
-        "title": "When aeunkno printer took galley of scrambled",
+        "title": "Master Python in 30 Days: Learn Smarter, Code Faster",
         "img": "blog_thumb01.jpg",
         "category": "EDUCATION",
         "author": "Admin",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "discription": "If you’ve ever searched for a Python online course or wondered which Python course is best, you’re not alone. Python is everywhere today — from apps on your phone to algorithms that power Netflix recommendations. It’s the language behind data science, artificial intelligence, automation, and modern web development. In short, if technology drives the world, Python is the fuel."
     },
     {
         "id": 2,
-        "title": "Full Stack GraphQL With Next.js And Vercel",
+        "title": "AI for the Workplace: Skills Every Professional Needs",
         "img": "blog_thumb02.jpg",
         "category": "COURSE",
         "author": "Admin",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "discription": "Artificial Intelligence (AI) is no longer a futuristic idea. It’s already reshaping how we work, make decisions, and communicate across industries. From automating routine tasks to providing advanced insights, AI has become an everyday part of the workplace. For professionals, this shift is both an opportunity and a challenge."
     },
     {
         "id": 3,
-        "title": "What Leonardo Teach us About Web Design",
+        "title": "Smart Digital Marketing for Solopreneurs",
         "img": "blog_thumb03.jpg",
         "category": "SKILL DEVELOPMENT",
         "author": "Admin",
-        "date": "25 April 2023"
-    },
-    {
-        "id": 4,
-        "title": "When aeunkno printer took galley of scrambled",
-        "img": "blog_thumb04.jpg",
-        "category": "Tech",
-        "author": "Admin",
-        "date": "25 April 2023"
-    },
-    {
-        "id": 5,
-        "title": "Full Stack GraphQL With Next.js And Vercel",
-        "img": "blog_thumb05.jpg",
-        "category": "EDUCATION",
-        "author": "Admin",
-        "date": "25 April 2023"
-    },
-    {
-        "id": 6,
-        "title": "What Leonardo Teach us About Web Design",
-        "img": "blog_thumb06.jpg",
-        "category": "COURSE",
-        "author": "Admin",
-        "date": "25 April 2023"
-    },
-    {
-        "id": 7,
-        "title": "When aeunkno printer took galley of scrambled",
-        "img": "blog_thumb07.jpg",
-        "category": "SKILL DEVELOPMENT",
-        "author": "Admin",
-        "date": "25 April 2023"
-    },
-    {
-        "id": 8,
-        "title": "Full Stack GraphQL With Next.js And Vercel",
-        "img": "blog_thumb08.jpg",
-        "category": "Tech",
-        "author": "Admin",
-        "date": "25 April 2023"
-    },
-    {
-        "id": 9,
-        "title": "What Leonardo Teach us About Web Design",
-        "img": "blog_thumb09.jpg",
-        "category": "Tech",
-        "author": "Admin",
-        "date": "25 April 2023"
+        "date": "25 April 2023",
+        "discription": "Running a business on your own is exciting, but it can also be overwhelming. Solopreneurs have to wear many hats — from building products and managing clients to handling finances. In this mix, marketing often becomes one of the biggest challenges. After all, how do you make your voice heard in a crowded digital space without a big team or large budgets?"
     }
 ]
