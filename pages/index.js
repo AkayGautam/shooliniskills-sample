@@ -39,7 +39,7 @@ useEffect(() => {
                 {/* <Categories1 /> */}
                 <Testimonial1 />
                 {/* <Instructor1 /> */}
-                <Cta1 />
+                {/* <Cta1 /> */}
                 <Blog1 />
                 <Newsletter1 /> 
             </Layout>
