@@ -3220,10 +3220,10 @@ textarea {
     padding-right: 15px;
 }
 
-.brand__item img {
+/* .brand__item img {
     filter: grayscale(1);
     opacity: 0.4;
-}
+} */
 
 .brand__item a {
     display: -webkit-box;
@@ -4205,8 +4205,9 @@ h5.title {
 }
 
 .courses__shapes>*:nth-child(2) img {
-    max-width: 86px;
+    max-width: 106px;
 }
+
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .courses-top-wrap .shop-top-left p {
@@ -11105,6 +11106,17 @@ section.contact-area {
     padding: 30px;
     margin-left: -20px;
 }
+.brand__item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #eaeaea;
+    padding: 5px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
 @media screen and (min-width:768px)
 {
     .homepageHeader li.menu-item a, .homepageHeader li.menu-item-has-children a {

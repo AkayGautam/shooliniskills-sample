@@ -68,8 +68,12 @@ const settings = {
 
     return (
         <>
-            <section className="about-area tg-motion-effects section-py-120">
+            <section className="about-area courses-area bg-white tg-motion-effects section-py-120">
                 <div className="container">
+                       <div className="courses__shapes">
+                    <div className="courses__shapes-item alltuchtopdown"><img src="/assets/img/notes2.png" alt="shape" /></div>
+                    <div className="courses__shapes-item alltuchtopdown"><img src="/assets/img/notes3.png" alt="shape" /></div>
+                </div>
                     <div className="row align-items-center justify-content-center">
                         <div className="col-xl-5 col-lg-8">
                             <Slider {...settings} className="row courses-slider-active">
