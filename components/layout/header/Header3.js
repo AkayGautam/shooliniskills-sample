@@ -61,7 +61,12 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 </li>
                                                 <li className="menu-item-has-children"><Link href="#">Courses</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="/courses">All Courses</Link></li>
+                                                        <li><Link href="/course/1"> Business </Link></li>
+                                      <li><Link href="/course/2"> Communication </Link></li>
+                                      <li><Link href="/course/3">Leadership </Link></li>
+                                      <li> <Link href="/course/4">Personal Growth </Link></li>
+                                        <li><Link href="/course/3">Self-Growth </Link></li>
+                                        <li><Link href="/course/3">Finance </Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item-has-children"><Link href="#">Resources </Link>
@@ -83,7 +88,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu }) {
                                                         <li><Link href="/shop-details">Shop Details</Link></li>
                                                     </ul>
                                                 </li> */}
-                                                <li className="menu-item-has-children"><Link href="#">Enterprise </Link> </li>
+                                                <li className="menu-item"><Link href="#">Enterprise </Link> </li>
                                             </ul>
                                         </div>
                                         <div className="tgmenu__search-bar">

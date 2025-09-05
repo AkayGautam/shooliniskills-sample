@@ -25,8 +25,12 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 </li>
                                                 <li className="menu-item-has-children"><Link href="#">Courses</Link>
                                                     <ul className="sub-menu">
-                                                        <li><Link href="/courses">All Courses</Link></li>
-                                                        <li><Link href="/course-details">Course Details</Link></li>
+                                                        <li><Link href="/course/1"> Business </Link></li>
+                                      <li><Link href="/course/2"> Communication </Link></li>
+                                      <li><Link href="/course/3">Leadership </Link></li>
+                                      <li> <Link href="/course/4">Personal Growth </Link></li>
+                                        <li><Link href="/course/3">Self-Growth </Link></li>
+                                        <li><Link href="/course/3">Finance </Link></li>
                                                     </ul>
                                                 </li>
                                                 <li className="menu-item-has-children"><Link href="#">Pages</Link>

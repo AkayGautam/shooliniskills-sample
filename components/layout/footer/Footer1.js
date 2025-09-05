@@ -46,12 +46,12 @@ export default function Footer1() {
                                 <div className="footer-widget widget_nav_menu">
                                     <h4 className="fw-title">Courses</h4>
                                     <ul className="list-wrap">
-                                        <li><Link href="/courses">Life Coach</Link></li>
-                                        <li><Link href="/courses">Business Coach</Link></li>
-                                        <li><Link href="/courses">Health Coach</Link></li>
-                                        <li><Link href="/courses">Development</Link></li>
-                                        <li><Link href="/courses">Web Design</Link></li>
-                                        <li><Link href="/courses">SEO Optimize</Link></li>
+                                      <li><Link href="/course/1"> Business </Link></li>
+                                      <li><Link href="/course/2"> Communication </Link></li>
+                                      <li><Link href="/course/3">Leadership </Link></li>
+                                      <li> <Link href="/course/4">Personal Growth </Link></li>
+                                        <li><Link href="/course/3">Self-Growth </Link></li>
+                                        <li><Link href="/course/3">Finance </Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ export default function Footer1() {
                         <div className="row">
                             <div className="col-lg-8">
                                 <div className="copyright__text">
-                                    <p>Copyright © {new Date().getFullYear()} eduvalt. All rights reserved.</p>
+                                    <p>Copyright © {new Date().getFullYear()} Shooliniskill. All rights reserved.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4">
