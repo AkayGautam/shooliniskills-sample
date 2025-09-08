@@ -354,6 +354,7 @@
             }
         ]
     },
+     
     {
         "id": 4,
         "logo": "course_thumb04.jpg",
@@ -442,6 +443,23 @@
             }
            ]
     },
+    {
+        "id": 6,
+        "logo": "course_thumb05.jpg",
+        "courseTitle": "Upcoming",
+        "category": "Personal Growth, Branding",
+        "instructor": "Foley Patrik",
+        "catcls": "cat-one",
+        "language": "English",
+        "difficulty": "expert",
+        "rating": "expert",
+        "starton": "Self-Paced",
+        "duration": "30 days",
+        "fee": "000",
+        "launchfee": "000",
+        "description": "This course teaches the strategies to build brand awareness, how to attract customers online and the key metrics that you can focus on. It includes tactics for website development, SEO, social media, direct communication & ad management."
+    
+       },
     {
         "id": 5,
         "logo": "course_thumb05.jpg",
@@ -560,5 +578,6 @@
                 ]
             }
         ]
-    } 
+    }
+      
 ]

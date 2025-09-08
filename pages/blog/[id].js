@@ -32,7 +32,7 @@ export default function BlogDetails() {
                                                 <li><i className="flaticon-calendar-date" /> 23 Aug, 2023</li>
                                                 <li><i className="flaticon-help" /> 22 Comments</li>
                                             </ul>
-                                            <p>{blogPost.discription}</p>
+                                            <p dangerouslySetInnerHTML={{ __html: blogPost.discription }} />
                                           
                                             
                                     </div>
@@ -43,30 +43,24 @@ export default function BlogDetails() {
                                    </div>
                                 <div className="col-lg-4">
                                     <aside className="blog-sidebar">
-                                        <div className="blog-widget widget_search">
+                                        {/* <div className="blog-widget widget_search">
                                             <div className="sidebar-search-form">
                                                 <form action="#">
                                                     <input type="text" placeholder="Search here" />
                                                     <button><i className="flaticon-magnifying-glass" /></button>
                                                 </form>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <div className="blog-widget">
                                             <h4 className="widget-title">Categories</h4>
                                             <div className="shop-cat-list">
                                                 <ul className="list-wrap">
                                                     <li>
                                                         <div className="form-check">
-                                                            <input className="form-check-input" type="checkbox" id="cat_1" />
-                                                            <label className="form-check-label" htmlFor="cat_1">Art  Design (8)</label>
+                                                           
+                                                            <label className="form-check-label" htmlFor="cat_1">{blogPost.title}</label>
                                                         </div>
-                                                    </li>
-                                                    <li>
-                                                        <div className="form-check">
-                                                            <input className="form-check-input" type="checkbox" id="cat_2" />
-                                                            <label className="form-check-label" htmlFor="cat_2">Business (12)</label>
-                                                        </div>
-                                                    </li>
+                                                    </li> 
                                                     
                                                 </ul>
                                             </div>
@@ -84,28 +78,7 @@ export default function BlogDetails() {
                                                     <span className="date"><i className="flaticon-calendar-date" /> 25 Dec, 2023</span>
                                                 </div>
                                             </div>
-                                            <div className="rc-post-item">
-                                                <div className="rc-post-thumb">
-                                                    <Link href="/blog-details">
-                                                        <img src="/assets/img/blog/blog_standard04.jpg" alt="img" />
-                                                    </Link>
-                                                </div>
-                                                <div className="rc-post-content">
-                                                    <h4 className="title"><Link href="/blog-details">Make Your Edition Magnificent</Link></h4>
-                                                    <span className="date"><i className="flaticon-calendar-date" /> 26 Dec, 2023</span>
-                                                </div>
-                                            </div>
-                                            <div className="rc-post-item">
-                                                <div className="rc-post-thumb">
-                                                    <Link href="/blog-details">
-                                                        <img src="/assets/img/blog/blog_standard03.jpg" alt="img" />
-                                                    </Link>
-                                                </div>
-                                                <div className="rc-post-content">
-                                                    <h4 className="title"><Link href="/blog-details">The Potentially Non Accessibility</Link></h4>
-                                                    <span className="date"><i className="flaticon-calendar-date" /> 27 Dec, 2023</span>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                         {/* <div className="blog-widget">
                                             <h4 className="widget-title">Popular Tags</h4>

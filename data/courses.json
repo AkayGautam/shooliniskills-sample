@@ -26,14 +26,14 @@
                 ]
             },
             {
-               "module": 2,
+                "module": 2,
                 "topic": "How AI Learns",
                 "lessons": [
                     "What is data? Structured vs unstructured",
                     "Machine Learning in 3 steps: data → training → prediction",
                     "Types of ML: supervised, unsupervised, reinforcement (with simple examples: spam filter, Spotify playlists, self-driving cars)",
                     " Role of neural networks (visual explanation, no math)"
-                ]  
+                ]
             },
             {
                 "module": 3,
@@ -102,165 +102,165 @@
         "starton": "Self-Paced",
         "duration": "30 days",
         "fee": "50,000",
-        "phase1" : "Python Foundations (Day 1–7)",
-        "phase2" : "Python for Real Work (Day 8–16)",
+        "phase1": "Python Foundations (Day 1–7)",
+        "phase2": "Python for Real Work (Day 8–16)",
         "launchfee": "19,999",
         "description": "Meant for those with a basic engineering background, the Master Python in 30 Days program teaches you to write clean Python code. After completion of this course, you will be able to automate tasks, build small apps, and understand core CS/DS concepts.",
         "curriculum": [
             {
-               "module": 1,
+                "module": 1,
                 "topic": "Getting Started with Python",
                 "lessons": [
                     "Install Python, VS Code/Jupyter",
                     "Syntax, comments, print statements",
                     "Running scripts & interactive shell",
                     " Your first program: *Hello, Python!*"
-                ]     
+                ]
             },
             {
-               "module": 2,
+                "module": 2,
                 "topic": "Variables, Data Types & Operators",
                 "lessons": [
                     "Numbers, strings, booleans",
                     "Type casting & f-strings",
-                    "Arithmetic, comparison & logical operators" 
-                ]     
+                    "Arithmetic, comparison & logical operators"
+                ]
             },
             {
-               "module": 3,
+                "module": 3,
                 "topic": "Control Flow",
                 "lessons": [
                     "Nested conditions",
                     "Boolean expressions in real-world scenarios"
-                ]     
+                ]
             },
             {
-               "module": 4,
+                "module": 4,
                 "topic": "Loops & Iterations",
                 "lessons": [
                     "‘for’ and ‘while’ loops",
                     "‘break’, ‘continue’, ‘pass’",
-                    "Looping with ‘range()’, nested loops" 
-                ]     
+                    "Looping with ‘range()’, nested loops"
+                ]
             },
             {
-               "module": 5,
+                "module": 5,
                 "topic": "Data Structures I – Lists & Tuples",
                 "lessons": [
                     "Creating, indexing, slicing lists",
                     " Mutability vs immutability",
                     "Common list methods (‘append’, ‘sort’, ‘pop’)",
                     "Tuple packing/unpacking"
-                ]     
+                ]
             },
             {
-               "module": 6,
+                "module": 6,
                 "topic": "Data Structures II – Dictionaries & Sets",
                 "lessons": [
                     " Key/value pairs",
                     "Dictionary methods",
                     "Sets, unique values, set operations",
                     "When to use what"
-                ]     
+                ]
             },
             {
-               "module": 7,
+                "module": 7,
                 "topic": "Functions & Modules",
                 "lessons": [
                     "Defining and calling functions",
                     "Parameters, return values",
                     "Scope & ‘global’ keyword",
                     "Importing Python standard modules (‘math’, ‘random’)"
-                ]     
+                ]
             },
             {
-               "module": 8,
-                "topic": "Strings & File Handling", 
+                "module": 8,
+                "topic": "Strings & File Handling",
                 "lessons": [
                     "String methods (‘split’, ‘join’, ‘find’)",
                     "File read/write (‘open’, ‘with’)",
-                    "Handling CSV/JSON basics" 
-                ]     
+                    "Handling CSV/JSON basics"
+                ]
             },
             {
-               "module": 9,
+                "module": 9,
                 "topic": "Error Handling & Debugging",
                 "lessons": [
                     "‘try’, ‘except’, ‘finally’",
                     "Raising exceptions",
                     "Debugging with print/logging",
                     "Best practices"
-                ]     
+                ]
             },
             {
-               "module": 10,
+                "module": 10,
                 "topic": "Object-Oriented Programming (OOP)",
                 "lessons": [
                     " Classes & objects",
                     "Attributes & methods",
                     "‘__init__’ constructor",
                     "Encapsulation basics"
-                ]     
+                ]
             },
             {
-               "module": 11,
+                "module": 11,
                 "topic": "Advanced OOP Concepts",
                 "lessons": [
                     "Inheritance & polymorphism",
                     " ‘super()’",
                     "Method overriding",
                     "Dunder methods (‘__str__’, ‘__len__’)"
-                ]     
+                ]
             },
             {
-               "module": 12,
+                "module": 12,
                 "topic": "Working with Libraries & Virtual Environments",
                 "lessons": [
                     "‘pip’ & PyPI",
                     "Popular libraries (‘requests’, ‘pandas’, ‘matplotlib’)",
                     "Virtual environments (‘venv’)",
                     "Keeping projects isolated"
-                ]     
+                ]
             },
             {
-               "module": 13,
+                "module": 13,
                 "topic": "Python for Data Analysis",
                 "lessons": [
                     "Numpy arrays",
                     " Pandas Series & DataFrames",
                     " Basic data cleaning & filtering",
                     "Simple visualization with matplotlib"
-                ]     
+                ]
             },
             {
-               "module": 14,
+                "module": 14,
                 "topic": "Python for Automation",
                 "lessons": [
                     "Automating file renaming",
                     "Reading/writing Excel (openpyxl)",
                     "Sending automated emails (smtplib)",
                     "Web scraping basics (BeautifulSoup/requests)"
-                ]     
+                ]
             },
             {
-               "module": 15,
-                "topic": "Capstone Prep – Project Options", 
+                "module": 15,
+                "topic": "Capstone Prep – Project Options",
                 "lessons": [
                     "Build a CLI app (expense tracker)",
                     "Build a data project (analyze COVID/stock/weather dataset)",
                     "Build a web scraper (news headlines aggregator)",
                     "Build automation (email reminders / file sorter)"
-                ]     
+                ]
             },
             {
-               "module": 16,
+                "module": 16,
                 "topic": "Capstone & Next Steps",
                 "lessons": [
                     "Execute chosen project (recorded walk-throughs)",
                     "Showcase code on GitHub",
                     "Document with README.md",
                     "Next steps: Django/Flask, Data Science, ML, FastAPI"
-                ]     
+                ]
             }
         ]
     },
@@ -279,7 +279,7 @@
         "fee": "30,000",
         "launchfee": "9,999",
         "description": "AI is not here to steal jobs. It is here to enhance your creativity and increase your productivity. Learn the basics of how to use AI, what are its most useful implementations and how to use it for personal growth.  ",
-         "curriculum": [
+        "curriculum": [
             {
                 "module": 1,
                 "topic": "What is AI, Really?",
@@ -291,14 +291,14 @@
                 ]
             },
             {
-               "module": 2,
+                "module": 2,
                 "topic": "How AI Learns",
                 "lessons": [
                     "What is data? Structured vs unstructured",
                     "Machine Learning in 3 steps: data → training → prediction",
                     "Types of ML: supervised, unsupervised, reinforcement (with simple examples: spam filter, Spotify playlists, self-driving cars)",
                     " Role of neural networks (visual explanation, no math)"
-                ]  
+                ]
             },
             {
                 "module": 3,
@@ -369,7 +369,7 @@
         "fee": "50,000",
         "launchfee": "29,999",
         "description": "Master AI to succeed at the workplace. Explore the tools that you will find useful. This course is job-role agnostic. So you are sure to find tools that will help you deliver results at the workplace better and faster. ",
-           "curriculum": [
+        "curriculum": [
             {
                 "module": 1,
                 "topic": " Introduction to AI in the Workplace",
@@ -380,7 +380,7 @@
                     "The mindset shift: AI as your co-worker, not a replacement"
                 ]
             },
-             {
+            {
                 "module": 2,
                 "topic": " AI for Communication & Writing ",
                 "lessons": [
@@ -390,7 +390,7 @@
                     "Translation & multilingual communication"
                 ]
             },
-             {
+            {
                 "module": 3,
                 "topic": "AI for Productivity & Organization",
                 "lessons": [
@@ -400,7 +400,7 @@
                     "Knowledge search (ask AI about your own documents)"
                 ]
             },
-             {
+            {
                 "module": 4,
                 "topic": "AI for Creativity & Presentations (45 mins)",
                 "lessons": [
@@ -410,7 +410,7 @@
                     "Storytelling with AI support"
                 ]
             },
-             {
+            {
                 "module": 5,
                 "topic": "AI for Data & Decision-Making (45 mins)",
                 "lessons": [
@@ -420,7 +420,7 @@
                     "Using AI to compare options & make decisions"
                 ]
             },
-             {
+            {
                 "module": 6,
                 "topic": "AI for Collaboration & Leadership (45 mins)",
                 "lessons": [
@@ -430,7 +430,7 @@
                     "Collaboration best practices (sharing prompts, workflows)"
                 ]
             },
-             {
+            {
                 "module": 7,
                 "topic": "Responsible & Future-Ready AI at Work (30 mins)",
                 "lessons": [
@@ -440,7 +440,23 @@
                     "The future of work: hybrid teams (human + AI)"
                 ]
             }
-           ]
+        ]
+    },
+    {
+        "id": 6,
+        "logo": "course_thumb05.jpg",
+        "courseTitle": "Upcoming",
+        "category": "Personal Growth, Branding",
+        "instructor": "Foley Patrik",
+        "catcls": "cat-one",
+        "language": "English",
+        "difficulty": "expert",
+        "rating": "expert",
+        "starton": "Self-Paced",
+        "duration": "30 days",
+        "fee": "000",
+        "launchfee": "000",
+        "description": "Upcoming Course."
     },
     {
         "id": 5,
@@ -479,7 +495,7 @@
                 ]
             },
             {
-                "module":3,
+                "module": 3,
                 "topic": "Content Marketing That Converts",
                 "lessons": [
                     "Content pillars: educate, inspire, build trust, sell",
